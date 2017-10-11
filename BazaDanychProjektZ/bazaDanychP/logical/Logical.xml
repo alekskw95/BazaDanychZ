@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="BB778F09-A91A-C79F-45BE-DE532A6B2E95" mainViewID="70FE275C-960C-772E-1ABB-8A62AE6B5A41">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 19:06:58 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

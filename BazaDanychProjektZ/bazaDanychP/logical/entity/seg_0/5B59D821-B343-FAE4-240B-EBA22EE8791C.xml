@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B59D821-B343-FAE4-240B-EBA22EE8791C" name="Visits">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 19:20:15 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idVisits" id="3E4A4E18-19C2-BC79-74C8-CD0C455CAE20">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 19:20:19 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="153BBAB8-3F76-53F4-DE88-D99804273B02">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 19:20:30 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="time" id="C66B4F9A-F9B2-0220-8E1A-EE7A9BC062D9">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 19:20:37 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="priority" id="155CFD32-748F-FB3F-0827-9D4E6010EBFD">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 19:20:51 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPatients" id="647002D2-0146-3E06-D479-ED954B8A6887">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:19:33 UTC</createdTime>
+<generatorID>CE869A82-DDF7-57E6-C964-A27E42C59D2B</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>627447FF-CB2B-9175-F267-320A14F964DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPatientCashBox" id="88752E1D-1DB5-8797-CCAD-CF55C2EDC241">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:20:11 UTC</createdTime>
+<generatorID>CE869A82-DDF7-57E6-C964-A27E42C59D2B</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>2B9841D8-E24E-4636-B980-11CBC004C6BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idDoctors" id="34675FCB-CB7E-FB21-0D83-C289D9E2ECC8">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:20:31 UTC</createdTime>
+<generatorID>0FF9068D-B722-28F3-F159-F737C9109124</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>74CEBE53-E766-8376-F050-A124EEA2E630</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idSpecializations" id="C43739DD-8184-EC12-753E-E80B4119E3FE">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:21:46 UTC</createdTime>
+<generatorID>0FF9068D-B722-28F3-F159-F737C9109124</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>BEF53D06-560E-102B-7619-84D1EBA9C322</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idRooms" id="6C16CDC6-7C31-2CF2-9427-DB210AD9B7B2">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:23:43 UTC</createdTime>
+<generatorID>1FFB90AA-2387-0808-EF0E-51C349189885</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>284DFE61-1F3E-1DFB-A4FA-A14338A564AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE38989E-68E7-4A4A-53DA-E7DF5856A492" name="Visits PK">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 19:20:29 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3E4A4E18-19C2-BC79-74C8-CD0C455CAE20</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

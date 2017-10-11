@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E541A047-0513-2883-119F-BB6AA7930612" name="ReceptHaveDrugs">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:09:33 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idReceptHaveDrugs" id="BBD431A9-2B90-E6B1-E428-BE14DD486571">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:09:44 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPrescriptions" id="73AB94CC-37CF-C884-CCEF-9CF381E436DA">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:22:48 UTC</createdTime>
+<generatorID>F98A5465-C80B-49FC-95EF-1EFFB2BFEEDC</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>5A181389-BA7B-F00A-8E56-D741E3C63486</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idDrugs" id="46BE1A98-9026-9EA9-0EC9-B012AF0BA7EE">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:22:59 UTC</createdTime>
+<generatorID>377C9568-215E-7893-AA3B-2F13FD029819</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>D44DF462-1B13-D90C-8DED-94C4C9E7FEE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D641326-0536-101B-3B95-9DD3ECBB678B" name="ReceptHaveDrugs PK">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:09:58 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BBD431A9-2B90-E6B1-E428-BE14DD486571</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

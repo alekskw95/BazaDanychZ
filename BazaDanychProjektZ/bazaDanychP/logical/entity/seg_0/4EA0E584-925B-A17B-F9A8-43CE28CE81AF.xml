@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EA0E584-925B-A17B-F9A8-43CE28CE81AF" name="Prescriptions">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:08:36 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPrescriptions" id="5A181389-BA7B-F00A-8E56-D741E3C63486">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:08:48 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duration" id="E0B89A72-2BA8-55F7-D406-E2B42B0C7A78">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:09:04 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idDoctors" id="451EC761-0746-1CFE-3CD3-7E3FA1930CD6">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:22:22 UTC</createdTime>
+<generatorID>3C6DBA31-DE72-4DD0-7847-D73AE84AA2C3</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>74CEBE53-E766-8376-F050-A124EEA2E630</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idSpecializations" id="FC7009F3-4D62-382E-8377-34E7F29D104C">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:22:22 UTC</createdTime>
+<generatorID>3C6DBA31-DE72-4DD0-7847-D73AE84AA2C3</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>BEF53D06-560E-102B-7619-84D1EBA9C322</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D9DD282-94BE-08C0-E6E9-F82BC0BCBEF5" name="Prescriptions PK">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:09:03 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A181389-BA7B-F00A-8E56-D741E3C63486</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

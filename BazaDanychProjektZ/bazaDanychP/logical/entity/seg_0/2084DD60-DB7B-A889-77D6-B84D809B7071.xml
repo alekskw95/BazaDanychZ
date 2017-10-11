@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2084DD60-DB7B-A889-77D6-B84D809B7071" name="Doctor-Testing">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:14:24 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E0BDC340-675B-F42F-5401-D95440B7D3E6">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:15:07 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idDoctors" id="42496C53-91AA-DAF9-4FCC-2E7B9FFAB087">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:17:36 UTC</createdTime>
+<generatorID>A7301BB7-AEDE-FA57-4C8A-87FB330D4373</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>74CEBE53-E766-8376-F050-A124EEA2E630</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idMedicalCheckUps" id="10367DB5-6C92-6B10-F9AB-A679B5825254">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:18:06 UTC</createdTime>
+<generatorID>AF9212F3-EA10-ABA2-3519-64C812B7527D</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>E961324D-897B-AB34-16CA-6F899E1FCD18</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idSpecializations" id="1DD4FC26-54A8-2A0E-9F4E-FBF1F45FEAAA">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:21:46 UTC</createdTime>
+<generatorID>A7301BB7-AEDE-FA57-4C8A-87FB330D4373</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>BEF53D06-560E-102B-7619-84D1EBA9C322</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EC85833-D0C1-66DD-9300-C220C4F4DB1C" name="Doctor-Testing PK">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 20:15:18 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0BDC340-675B-F42F-5401-D95440B7D3E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

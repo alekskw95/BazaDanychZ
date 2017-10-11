@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="62E0CFEA-48E0-754A-8FF0-905AC4E51A74">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 19:06:59 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

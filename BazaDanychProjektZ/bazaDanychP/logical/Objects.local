@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="0DAB130E-69FF-5650-8C10-A7C499EEECC3" name="PatientCashBox" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2084DD60-DB7B-A889-77D6-B84D809B7071" name="Doctor-Testing" seqName="seg_0"/>
+   <object objectType="Entity" objectID="295E39E5-5CF3-7FF6-4D7D-53AAF16713C6" name="Specializations" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2FD12F87-19DD-92E2-37D4-5A73473538CA" name="Nurses" seqName="seg_0"/>
+   <object objectType="Entity" objectID="35F1893B-5A5E-9C2F-DD04-511C367620CD" name="PendingVisits" seqName="seg_0"/>
+   <object objectType="Entity" objectID="37B06946-A7B9-D0AD-B6A9-8F0B2C4052EB" name="MedicalCheckUps" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4EA0E584-925B-A17B-F9A8-43CE28CE81AF" name="Prescriptions" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5B59D821-B343-FAE4-240B-EBA22EE8791C" name="Visits" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7E341492-D1FF-560E-8CC0-2985EF34FA68" name="PatientHealthCards" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BC483FE0-0BDA-916D-CBE2-D5FB1D7D88AB" name="PatientsAdress" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BFB2E390-9D68-2DA4-568E-B4A374B23355" name="Doctors" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D2A9E022-7B28-2687-2203-DF98B3F72106" name="Patients" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DF32F686-5D89-3711-C10C-28AF06F3F3FB" name="Rooms" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E541A047-0513-2883-119F-BB6AA7930612" name="ReceptHaveDrugs" seqName="seg_0"/>
+   <object objectType="Entity" objectID="EAF0C48F-0514-1FC7-E555-8C1E6ECCB06F" name="Drugs" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F8465AC1-3917-A74F-226F-E95168A1F7CB" name="Patients-Testing" seqName="seg_0"/>
+   <object objectType="Relation" objectID="0FF9068D-B722-28F3-F159-F737C9109124" name="Relation_9" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1FFB90AA-2387-0808-EF0E-51C349189885" name="Relation_19" seqName="seg_0"/>
+   <object objectType="Relation" objectID="22EB6263-FA76-4BA6-B5D3-D340E41ADDB1" name="Relation_18" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2929F200-76F8-D43B-9F08-906F01BE6FC3" name="Relation_7" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2FA5D508-CEA1-9204-5A91-BB7A074DFA12" name="Relation_12" seqName="seg_0"/>
+   <object objectType="Relation" objectID="377C9568-215E-7893-AA3B-2F13FD029819" name="Relation_17" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3C6DBA31-DE72-4DD0-7847-D73AE84AA2C3" name="Relation_15" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4B1DA9C6-1F85-22BE-D0FA-E6DDD26477BC" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="51C54DAA-C9D8-EA76-B51C-CFA29CB9CCA7" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6142F918-5C61-1AA4-A859-A5E9FCDCE907" name="Relation_8" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7E6F8FD2-585A-34F6-8568-4A2A69936C94" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="93CCB47F-EF96-8C0E-1D08-6EF6208EBA1D" name="Relation_14" seqName="seg_0"/>
+   <object objectType="Relation" objectID="98CE9031-FFEB-F621-6BC2-083164724851" name="Relation_13" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A7301BB7-AEDE-FA57-4C8A-87FB330D4373" name="Relation_1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AF9212F3-EA10-ABA2-3519-64C812B7527D" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CE869A82-DDF7-57E6-C964-A27E42C59D2B" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F98A5465-C80B-49FC-95EF-1EFFB2BFEEDC" name="Relation_16" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

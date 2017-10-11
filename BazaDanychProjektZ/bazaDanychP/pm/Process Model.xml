@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="8E3119F4-9A3F-BCD1-6837-8CE96989C176">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-11 19:06:59 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
