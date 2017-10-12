@@ -8,13 +8,17 @@
    <object objectType="Entity" objectID="37B06946-A7B9-D0AD-B6A9-8F0B2C4052EB" name="MedicalCheckUps" seqName="seg_0"/>
    <object objectType="Entity" objectID="4EA0E584-925B-A17B-F9A8-43CE28CE81AF" name="Prescriptions" seqName="seg_0"/>
    <object objectType="Entity" objectID="5B59D821-B343-FAE4-240B-EBA22EE8791C" name="Visits" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6A109498-C567-8385-2544-EE594BB6E0AB" name="DrugForm" seqName="seg_0"/>
    <object objectType="Entity" objectID="7E341492-D1FF-560E-8CC0-2985EF34FA68" name="PatientHealthCards" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7FAB5C36-649F-BBD2-F8B7-0035C942B7B0" name="DrugManufacturer" seqName="seg_0"/>
+   <object objectType="Entity" objectID="80D507A8-17A0-629A-2D14-4ED3EBF939C6" name="Drug" seqName="seg_0"/>
    <object objectType="Entity" objectID="BC483FE0-0BDA-916D-CBE2-D5FB1D7D88AB" name="PatientsAdress" seqName="seg_0"/>
    <object objectType="Entity" objectID="BFB2E390-9D68-2DA4-568E-B4A374B23355" name="Doctors" seqName="seg_0"/>
    <object objectType="Entity" objectID="D2A9E022-7B28-2687-2203-DF98B3F72106" name="Patients" seqName="seg_0"/>
    <object objectType="Entity" objectID="DF32F686-5D89-3711-C10C-28AF06F3F3FB" name="Rooms" seqName="seg_0"/>
    <object objectType="Entity" objectID="E541A047-0513-2883-119F-BB6AA7930612" name="ReceptHaveDrugs" seqName="seg_0"/>
    <object objectType="Entity" objectID="EAF0C48F-0514-1FC7-E555-8C1E6ECCB06F" name="Drugs" seqName="seg_0"/>
+   <object objectType="Entity" objectID="EF726DC9-57CD-D0C1-9E79-0D1B1D706AA6" name="Visits-Drug" seqName="seg_0"/>
    <object objectType="Entity" objectID="F8465AC1-3917-A74F-226F-E95168A1F7CB" name="Patients-Testing" seqName="seg_0"/>
    <object objectType="Relation" objectID="0FF9068D-B722-28F3-F159-F737C9109124" name="Relation_9" seqName="seg_0"/>
    <object objectType="Relation" objectID="1FFB90AA-2387-0808-EF0E-51C349189885" name="Relation_19" seqName="seg_0"/>
@@ -24,9 +28,13 @@
    <object objectType="Relation" objectID="377C9568-215E-7893-AA3B-2F13FD029819" name="Relation_17" seqName="seg_0"/>
    <object objectType="Relation" objectID="3C6DBA31-DE72-4DD0-7847-D73AE84AA2C3" name="Relation_15" seqName="seg_0"/>
    <object objectType="Relation" objectID="4B1DA9C6-1F85-22BE-D0FA-E6DDD26477BC" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4E1CCAEB-DF9F-86A4-DCED-7CC8855E8221" name="Relation_25" seqName="seg_0"/>
    <object objectType="Relation" objectID="51C54DAA-C9D8-EA76-B51C-CFA29CB9CCA7" name="Relation_4" seqName="seg_0"/>
    <object objectType="Relation" objectID="6142F918-5C61-1AA4-A859-A5E9FCDCE907" name="Relation_8" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6DDA2A51-2033-7518-BBFF-790233852B0F" name="Relation_27" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7AA5AC9D-FC6B-67F9-9529-AC3833DFA69D" name="Relation_28" seqName="seg_0"/>
    <object objectType="Relation" objectID="7E6F8FD2-585A-34F6-8568-4A2A69936C94" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8BD56D60-F59D-DA0D-CE76-D60E1BAB4366" name="Relation_26" seqName="seg_0"/>
    <object objectType="Relation" objectID="93CCB47F-EF96-8C0E-1D08-6EF6208EBA1D" name="Relation_14" seqName="seg_0"/>
    <object objectType="Relation" objectID="98CE9031-FFEB-F621-6BC2-083164724851" name="Relation_13" seqName="seg_0"/>
    <object objectType="Relation" objectID="A7301BB7-AEDE-FA57-4C8A-87FB330D4373" name="Relation_1" seqName="seg_0"/>

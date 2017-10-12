@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80D507A8-17A0-629A-2D14-4ED3EBF939C6" name="Drug">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:05:01 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idDrug" id="18256E1C-7250-44EA-819E-7737C4ECF232">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:05:47 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="135353B6-C8D7-AB0A-79C2-0AC3C3047263">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:05:58 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantity" id="DDA05E8E-6761-289C-7C69-2DDCFC3CD702">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:06:17 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orRefunded" id="2AA822DB-E18D-2A76-B116-B5361C493D0A">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:07:17 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prescription" id="7D038EC0-AC03-812D-C56D-0FB66072472C">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:08:10 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unitAbbreviation" id="385B8D2B-7F54-9126-BEC0-6E374B143DA6">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:08:51 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idDrugForm" id="772B6E07-6455-0053-CB6A-8AA7E167457A">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:13:15 UTC</createdTime>
+<generatorID>4E1CCAEB-DF9F-86A4-DCED-7CC8855E8221</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>471EAE3F-04FA-9873-9835-8A057139BDEE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idDrugManufacturer" id="016C3577-3D56-EDDC-3849-43095AAE6FD5">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:13:22 UTC</createdTime>
+<generatorID>8BD56D60-F59D-DA0D-CE76-D60E1BAB4366</generatorID>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<referedAttribute>2B63D736-54DA-4EA4-1928-F0319466E9F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="19B0C166-9D11-377C-6D63-741B8EAA22BD" name="Drug PK">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:05:57 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18256E1C-7250-44EA-819E-7737C4ECF232</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A109498-C567-8385-2544-EE594BB6E0AB" name="DrugForm">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:09:42 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idDrugForm" id="471EAE3F-04FA-9873-9835-8A057139BDEE">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:09:52 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="A29B2CF9-7FF6-AAF5-7ACB-14E327937DCC">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:10:07 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D207284-E8F7-8302-9603-651CB1187957" name="DrugForm PK">
+<createdBy>OLCIA</createdBy>
+<createdTime>2017-10-12 19:10:06 UTC</createdTime>
+<ownerDesignName>bazaDanychP</ownerDesignName>
+<engineerTo>
+<item key="CF059FC9-7768-4242-A27B-821D2F5BC2F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>471EAE3F-04FA-9873-9835-8A057139BDEE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
